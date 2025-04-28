@@ -9,17 +9,21 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/textVwNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/actor"
         android:textColor="#000000"
         android:textSize="20sp"
         android:backgroundTint="#E0E0E0"
         android:padding="8dp"
         android:text="Júlia Ramos"
-        android:drawableStart="@android:drawable/ic_menu_info_details"/>
+        android:layout_marginTop="50dp"
+        android:drawablePadding="16dp"
+        app:icon="@drawable/baseline_person_24"
+        app:iconGravity="start"
+        app:iconPadding="8dp" />
 
     <Spinner
         android:id="@+id/spinner"
@@ -40,6 +44,7 @@
         android:inputType="number"
         android:maxLength="3"
         android:text=""
+        android:fontFamily="@font/comfortaa"
         android:textColor="#000000"
         android:textSize="18sp" />
 
@@ -48,27 +53,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#6200EE"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/comfortaa_bold"
         android:padding="16dp"
         android:text="Calcular"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:icon="@drawable/baseline_calculate_24"
-        app:iconGravity="end"
+        app:iconGravity="textEnd"
         app:iconSize="40dp"
         android:drawableStart="@android:drawable/ic_menu_info_details"/>
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/textVwResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#D6D6D6"
-        android:fontFamily="sans-serif"
+        android:fontFamily="@font/actor"
         android:padding="8dp"
         android:text=""
         android:textColor="#000000"
         android:textSize="18sp"
-        android:drawableStart="@android:drawable/ic_menu_info_details"/>
+        android:drawablePadding="20dp"
+        android:drawableStart="@drawable/baseline_info_24" />
 
 </LinearLayout>
 
