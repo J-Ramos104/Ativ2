@@ -21,9 +21,7 @@
         android:text="Júlia Ramos"
         android:layout_marginTop="50dp"
         android:drawablePadding="16dp"
-        app:icon="@drawable/baseline_person_24"
-        app:iconGravity="start"
-        app:iconPadding="8dp" />
+        android:drawableStart="@drawable/baseline_person_24" />
 
     <Spinner
         android:id="@+id/spinner"
@@ -60,8 +58,7 @@
         android:textSize="18sp"
         app:icon="@drawable/baseline_calculate_24"
         app:iconGravity="textEnd"
-        app:iconSize="40dp"
-        android:drawableStart="@android:drawable/ic_menu_info_details"/>
+        app:iconSize="40dp"/>
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/textVwResultado"

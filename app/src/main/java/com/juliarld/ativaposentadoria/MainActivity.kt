@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
                 }
             } else{
                 //Mostrando uma mensagem avisando erro caso o campo de digitar a idade esteja vazio
-                binding.textVwResultado.text = "Informe sua idade, por gentileza"
+                binding.textVwResultado.text = "Informe sua idade, por gentileza."
 
                 //Configurando o icon para que apareça junto com a mensagem
                 binding.textVwResultado.setCompoundDrawablesWithIntrinsicBounds(
